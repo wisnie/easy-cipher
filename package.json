@@ -1,0 +1,36 @@
+{
+  "name": "easy-cipher",
+  "version": "1.0.0",
+  "repository": "git@github.com:wisnie/easy-cipher.git",
+  "author": "Bartłomiej Wiśniewski <b.wisniewski128@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-typescript": "^7.13.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@tsconfig/node14": "^1.0.0",
+    "@types/jest": "^26.0.23",
+    "babel-jest": "^27.0.2",
+    "jest": "^27.0.4",
+    "lerna": "^4.0.0",
+    "prettier": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.50.6",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-license": "^2.4.0",
+    "rollup-plugin-prettier": "^2.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@easy-cipher/morse",
+  "version": "0.0.0",
+  "main": "dist/index.common.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "author": "Bartłomiej Wiśniewski",
+  "license": "MIT",
+  "repository": "git://github.com/wisnie/easy-cipher",
+  "bugs": {
+    "url": "https://github.com/wisnie/easy-cipher/issues"
+  },
+  "homepage": "https://github.com/wisnie/easy-cipher#readme",
+  "engines": {
+    "node": ">12.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "package.json",
+    "dist",
+    "LICENSE"
+  ],
+  "keywords": [
+    "typescript",
+    "morse code",
+    "international morse code",
+    "morse",
+    "cipher",
+    "mapping",
+    "encoding",
+    "ciphertext",
+    "ts"
+  ],
+  "dependencies": {
+    "@easy-cipher/core": "^0.0.0"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup --config"
+  }
+}
