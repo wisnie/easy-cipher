@@ -1,6 +1,6 @@
 {
   "name": "@easy-cipher/caesar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.common.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
@@ -36,7 +36,7 @@
     "ts"
   ],
   "dependencies": {
-    "@easy-cipher/core": "^1.0.0"
+    "@easy-cipher/core": "^1.0.1"
   },
   "scripts": {
     "build": "rimraf dist && rollup --config"
