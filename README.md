@@ -16,4 +16,6 @@ The project consists of packages that are stored in `packages/*` directory. The 
 
 The test runner is `jest`. You can run the test by running `yarn run test` in root directory.
 
+## Rollup config
+
 rollup.config.js was strongly inspired by https://github.com/typeofweb/schema by Type of Web - Michał Miszczyszyn.
