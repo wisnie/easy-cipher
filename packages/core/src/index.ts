@@ -51,7 +51,7 @@ const core: Core = ({
               return mapping;
             }
             if (throwOnUnknownCharacters) {
-              throw new Error('Unsupported character!');
+              throw new Error(`Unsupported character ${JSON.stringify(plaintextCharacter)}, not found in ${JSON.stringify(mappings)}`);
             }
             return empty;
           })
@@ -78,7 +78,7 @@ const core: Core = ({
               return character;
             }
             if (throwOnUnknownCharacters) {
-              throw new Error('Unknown ciphertext!');
+              throw new Error(`Unsupported ciphertext ${JSON.stringify(ciphertextCharacter)}, not found in ${JSON.stringify(reversedMappings)}`);
             }
             return empty;
           })
